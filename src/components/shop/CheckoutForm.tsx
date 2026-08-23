@@ -22,9 +22,17 @@ type CheckoutData = {
   cardCVC: string;
 };
 
+type Step = "shipping" | "payment" | "confirm";
+
+const STEPS: { id: Step; label: string }[] = [
+  { id: "shipping", label: "Address" },
+  { id: "payment", label: "Payment" },
+  { id: "confirm", label: "Confirm" },
+];
+
 export default function CheckoutForm() {
   const { lines } = useCart();
-  const [step, setStep] = useState<"shipping" | "payment" | "confirm">("shipping");
+  const [step, setStep] = useState<Step>("shipping");
   const [formData, setFormData] = useState<CheckoutData>({
     email: "",
     firstName: "",
@@ -70,7 +78,7 @@ export default function CheckoutForm() {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-flare/20 mb-6">
                 <span className="text-3xl">✓</span>
               </div>
-              <h2 className="font-display text-2xl uppercase text-bone mb-4">Order Confirmed</h2>
+              <h2 className="font-display text-lg uppercase text-bone sm:text-xl mb-4">Order Confirmed</h2>
               <p className="font-body text-base font-light text-bone/70 mb-8">
                 Thank you for your KALLÉN order. A confirmation email has been sent to <strong>{formData.email}</strong>.
               </p>
@@ -150,35 +158,35 @@ export default function CheckoutForm() {
           <div className="sm:col-span-12 mb-8">
             <Reveal>
               <div className="flex items-center justify-between">
-                {["shipping", "payment", "confirm"].map((s, i) => (
-                  <div key={s} className="flex items-center flex-1">
-                    <div
-                      className={`w-10 h-10 rounded-full flex items-center justify-center font-mono text-xs font-bold uppercase ${
-                        step === s
-                          ? "bg-bone text-void"
-                          : ["shipping", "payment"].includes(s) && step === "confirm"
-                            ? "bg-flare text-void"
-                            : "bg-bone/20 text-bone/60"
-                      }`}
-                    >
-                      {["shipping", "payment"].includes(s) && step === "confirm" ? "✓" : i + 1}
-                    </div>
-                    <div className="ml-3">
-                      <p className="font-mono text-[10px] uppercase tracking-label text-flare">
-                        {s === "shipping" ? "Address" : s === "payment" ? "Payment" : "Confirm"}
-                      </p>
-                    </div>
-                    {i < 2 && (
+                {STEPS.map((s, i) => {
+                  const currentIndex = STEPS.findIndex((x) => x.id === step);
+                  const done = i < currentIndex;
+                  const active = i === currentIndex;
+
+                  return (
+                    <div key={s.id} className="flex items-center flex-1">
                       <div
-                        className={`flex-1 h-0.5 mx-2 ${
-                          ["shipping", "payment"].includes(s) && step === "confirm"
-                            ? "bg-flare"
-                            : "bg-bone/10"
+                        className={`w-10 h-10 rounded-full flex items-center justify-center font-mono text-xs font-bold uppercase ${
+                          active
+                            ? "bg-bone text-void"
+                            : done
+                              ? "bg-flare text-void"
+                              : "bg-bone/20 text-bone/60"
                         }`}
-                      />
-                    )}
-                  </div>
-                ))}
+                      >
+                        {done ? "✓" : i + 1}
+                      </div>
+                      <div className="ml-3">
+                        <p className="font-mono text-[10px] uppercase tracking-label text-flare">
+                          {s.label}
+                        </p>
+                      </div>
+                      {i < STEPS.length - 1 && (
+                        <div className={`flex-1 h-0.5 mx-2 ${done ? "bg-flare" : "bg-bone/10"}`} />
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             </Reveal>
           </div>

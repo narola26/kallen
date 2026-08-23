@@ -57,7 +57,7 @@ export default function OrdersPage() {
             </Link>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+            <h1 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               Order History
             </h1>
           </Reveal>
@@ -150,7 +150,7 @@ export default function OrdersPage() {
           <Reveal>
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
               <div>
-                <p className="font-display text-sm uppercase text-bone mb-3">Can't find your order?</p>
+                <p className="font-display text-sm uppercase text-bone mb-3">Can&apos;t find your order?</p>
                 <p className="font-body text-sm font-light text-bone/70 mb-4">
                   Check your email for order confirmation. Still not there? We can help.
                 </p>

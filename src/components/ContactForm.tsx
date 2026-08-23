@@ -61,7 +61,7 @@ export default function ContactForm() {
           <div>
             <p className="font-display text-sm uppercase text-bone mb-2">Message Received</p>
             <p className="font-body text-sm font-light text-bone/70 leading-relaxed">
-              Thanks for reaching out. We reply to all inquiries within <strong>48 business hours</strong>. You'll hear from us at <strong>{formData.email}</strong>.
+              Thanks for reaching out. We reply to all inquiries within <strong>48 business hours</strong>. You&apos;ll hear from us at <strong>{formData.email}</strong>.
             </p>
             <p className="font-body text-xs font-light text-bone/60 mt-4">
               In the meantime, explore our <a href="/faq" className="underline hover:text-bone transition-colors">FAQ</a> or <a href="/shop" className="underline hover:text-bone transition-colors">shop collections</a>.

@@ -43,7 +43,7 @@ export default function PassportsPage() {
             </Link>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+            <h1 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               Digital Passports
             </h1>
           </Reveal>
@@ -114,7 +114,7 @@ export default function PassportsPage() {
         <div className="mx-auto max-w-content">
           <Reveal>
             <div>
-              <p className="font-display text-sm uppercase text-bone mb-4">What's in Your Passport?</p>
+              <p className="font-display text-sm uppercase text-bone mb-4">What&apos;s in Your Passport?</p>
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <div>
                   <p className="font-body text-sm font-light text-bone/70 leading-relaxed">

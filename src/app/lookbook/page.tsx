@@ -77,13 +77,13 @@ export default function LookbookPage() {
             <span className="font-mono text-xs uppercase tracking-label text-flare">Visual Stories</span>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="mt-6 font-display text-3xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-5xl">
+            <h1 className="mt-6 font-display text-xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-2xl">
               KALLÉN Lookbook
             </h1>
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-8 max-w-xl font-body text-lg font-light leading-relaxed text-bone/80 mx-auto">
-              How our pieces are worn. How they're made. The stories behind every stitch.
+              How our pieces are worn. How they&apos;re made. The stories behind every stitch.
             </p>
           </Reveal>
         </div>
@@ -114,7 +114,7 @@ export default function LookbookPage() {
                         <p className="font-mono text-[10px] uppercase tracking-label text-flare">
                           {lookbook.season}
                         </p>
-                        <h2 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone group-hover:text-flare transition-colors sm:text-3xl">
+                        <h2 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone group-hover:text-flare transition-colors sm:text-xl">
                           {lookbook.title}
                         </h2>
                         <p className="font-body text-base font-light text-bone/70 max-w-2xl">
@@ -142,7 +142,7 @@ export default function LookbookPage() {
             <p className="font-mono text-xs uppercase tracking-label text-flare mb-4">Stories</p>
           </Reveal>
           <Reveal delay={80}>
-            <h2 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl mb-16">
+            <h2 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl mb-16">
               Our Editorial
             </h2>
           </Reveal>
@@ -194,7 +194,7 @@ export default function LookbookPage() {
           </Reveal>
           <Reveal delay={80}>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              {["Summer 2024", "Spring 2024", "Winter 2023", "Fall 2023"].map((season, i) => (
+              {["Summer 2024", "Spring 2024", "Winter 2023", "Fall 2023"].map((season) => (
                 <button
                   key={season}
                   className="text-left border border-bone/10 p-4 hover:border-bone/30 hover:bg-void/20 transition-all duration-300"

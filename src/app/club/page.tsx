@@ -97,7 +97,7 @@ export default function ClubPage() {
                 <p className="font-mono text-[10px] uppercase tracking-label text-flare mb-2">
                   Membership
                 </p>
-                <p className="font-display text-3xl text-bone mb-2">€99</p>
+                <p className="font-display text-lg text-bone mb-2">€99</p>
                 <p className="font-body text-sm font-light text-bone/70 mb-6">per year / ~€8 per month</p>
                 <p className="font-body text-xs text-bone/60 mb-6">
                   Members typically earn back membership cost in their first order through early access to limited items.
@@ -215,13 +215,13 @@ export default function ClubPage() {
             <p className="font-mono text-xs uppercase tracking-label text-flare mb-4">Join the Club</p>
           </Reveal>
           <Reveal delay={80}>
-            <h2 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl mb-6">
+            <h2 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl mb-6">
               Ready to wear KALLÉN first?
             </h2>
           </Reveal>
           <Reveal delay={160}>
             <p className="font-body text-base font-light leading-relaxed text-bone/70 mb-12">
-              Your membership includes a 100% satisfaction guarantee. Try it for one season. If you don't love it, we'll refund you in full. No questions asked.
+              Your membership includes a 100% satisfaction guarantee. Try it for one season. If you don&apos;t love it, we&apos;ll refund you in full. No questions asked.
             </p>
           </Reveal>
 

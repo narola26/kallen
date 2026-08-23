@@ -23,9 +23,13 @@ const config: Config = {
         flare: "rgb(var(--flare) / <alpha-value>)",
       },
       fontFamily: {
-        display: ["var(--font-display)"],
-        body: ["var(--font-body)"],
-        mono: ["var(--font-mono)"],
+        // Note: Italiana renders every dash (-, –, —) as blank. Its subset
+        // maps those codepoints to empty glyphs, so the fallbacks below
+        // never get a chance to supply one — keep dashes out of
+        // font-display text entirely and use "to", "/" or "·" instead.
+        display: ["var(--font-display)", "Didot", "Georgia", "serif"],
+        body: ["var(--font-body)", "Helvetica Neue", "Arial", "sans-serif"],
+        mono: ["var(--font-mono)", "SFMono-Regular", "Consolas", "monospace"],
       },
       fontSize: {
         xs: ["11px", { letterSpacing: "0.02em" }],

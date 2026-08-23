@@ -73,7 +73,7 @@ export default function SustainabilityPage() {
             <p className="font-mono text-xs uppercase tracking-label text-flare">Our Impact</p>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="mt-4 font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+            <h1 className="mt-4 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               Sustainability & Ethics
             </h1>
           </Reveal>
@@ -100,7 +100,7 @@ export default function SustainabilityPage() {
                   <p className="font-mono text-[10px] uppercase tracking-label text-flare mb-2">
                     {metric.label}
                   </p>
-                  <p className="font-display text-3xl text-bone mb-2">{metric.value}</p>
+                  <p className="font-display text-lg text-bone mb-2">{metric.value}</p>
                   <p className="font-body text-sm font-light text-bone/60">{metric.detail}</p>
                 </div>
               </Reveal>
@@ -280,7 +280,7 @@ export default function SustainabilityPage() {
           </Reveal>
           <Reveal delay={80}>
             <p className="font-body text-base font-light text-bone/70 mb-8 max-w-2xl mx-auto">
-              We're committed to full transparency. Ask us anything about our supply chain, makers, materials, or environmental impact.
+              We&apos;re committed to full transparency. Ask us anything about our supply chain, makers, materials, or environmental impact.
             </p>
           </Reveal>
           <Reveal delay={160}>

@@ -136,7 +136,7 @@ export default function ProfileForm() {
               className="border-b border-bone/20 bg-transparent py-3 font-body text-base font-light text-bone placeholder:text-bone/40 focus:border-bone focus:outline-none transition-colors duration-200"
             />
             <p className="font-body text-[10px] text-bone/50">
-              Leave blank if you don't want to change your password.
+              Leave blank if you don&apos;t want to change your password.
             </p>
           </label>
 

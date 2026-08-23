@@ -74,7 +74,7 @@ export default function ProductDetail({ product }: { product: Product }) {
           <Reveal delay={100}>
             <div>
               <p className="font-mono text-xs uppercase tracking-label text-flare">{product.collection}</p>
-              <h1 className="mt-3 font-display text-2xl uppercase leading-snug text-bone sm:text-3xl">
+              <h1 className="mt-3 font-display text-lg uppercase leading-snug text-bone sm:text-xl">
                 {product.name}
               </h1>
               <p className="mt-4 font-mono text-lg uppercase tracking-label text-bone">€{product.price}</p>

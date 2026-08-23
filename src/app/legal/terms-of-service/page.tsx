@@ -92,7 +92,7 @@ export default function TermsOfServicePage() {
         {
           heading: "10. Limitation of Liability",
           body: [
-            "KALLÉN is provided "as is" without warranties of any kind.",
+            "KALLÉN is provided “as is” without warranties of any kind.",
             "To the fullest extent permitted by law, KALLÉN is not liable for indirect, incidental, consequential, or punitive damages (including lost profits).",
             "Our total liability is limited to the amount you paid for the product or service.",
           ],

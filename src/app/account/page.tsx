@@ -53,7 +53,7 @@ export default function AccountPage() {
             <p className="font-mono text-xs uppercase tracking-label text-flare">Your Account</p>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="mt-4 font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+            <h1 className="mt-4 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               Account Dashboard
             </h1>
           </Reveal>
@@ -137,7 +137,7 @@ export default function AccountPage() {
               <div>
                 <p className="font-display text-sm uppercase text-bone mb-2">Security</p>
                 <p className="font-body text-sm font-light text-bone/70">
-                  When you're done, sign out to keep your account secure.
+                  When you&apos;re done, sign out to keep your account secure.
                 </p>
               </div>
               <button className="border border-bone/40 px-8 py-3 font-body text-xs font-light uppercase tracking-nav text-bone hover:border-bone hover:bg-bone/5 transition-all duration-300">

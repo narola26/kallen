@@ -16,13 +16,13 @@ export default function ForgotPasswordPage() {
             </p>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+            <h1 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               Forgot Your Password?
             </h1>
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-4 font-body text-base font-light text-bone/70">
-              Enter your email address and we'll send you instructions to reset your password.
+              Enter your email address and we&apos;ll send you instructions to reset your password.
             </p>
           </Reveal>
         </div>

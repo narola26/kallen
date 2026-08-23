@@ -145,7 +145,7 @@ export default function CartContent() {
                   </button>
                 </div>
                 <p className="font-body text-[10px] text-bone/50 mt-2">
-                  Try "WELCOME10" for 10% off your first order
+                  Try &quot;WELCOME10&quot; for 10% off your first order
                 </p>
               </div>
             </Reveal>

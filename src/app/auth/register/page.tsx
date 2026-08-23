@@ -16,7 +16,7 @@ export default function RegisterPage() {
             </p>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+            <h1 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               Join KALLÉN
             </h1>
           </Reveal>

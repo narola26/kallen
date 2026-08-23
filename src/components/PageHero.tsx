@@ -22,7 +22,7 @@ export default function PageHero({
       <div className="relative z-10 w-full px-gutter-mobile pb-16 sm:px-gutter sm:pb-20">
         <div className="mx-auto max-w-content">
           <p className="font-mono text-xs uppercase tracking-label text-flare">{eyebrow}</p>
-          <h1 className="mt-4 font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+          <h1 className="mt-4 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
             {title}
           </h1>
           {subtitle && (

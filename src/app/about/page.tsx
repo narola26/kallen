@@ -68,7 +68,7 @@ export default function AboutPage() {
             </Reveal>
             <Reveal delay={160}>
               <p className="mt-8 max-w-xl font-body text-base font-light leading-relaxed text-bone/70">
-                KALLÉN started as frustration. I wanted to build something where the "story" isn't marketing — it's the data. Digital passports, transparent origins, and a community that actually cares about where things come from. Not for virtue signaling. Because it matters.
+                KALLÉN started as frustration. I wanted to build something where the &quot;story&quot; isn&apos;t marketing — it&apos;s the data. Digital passports, transparent origins, and a community that actually cares about where things come from. Not for virtue signaling. Because it matters.
               </p>
             </Reveal>
             <Reveal delay={240}>
@@ -148,7 +148,7 @@ export default function AboutPage() {
             </Reveal>
             <Reveal delay={240}>
               <p className="font-body text-sm font-light leading-relaxed text-bone/70">
-                We collaborate with emerging artists and photographers on limited-edition designs. Small batches. Hand cutting. Individual dyeing. The visible imperfections aren't defects — they're evidence of careful, intentional craft. Every KALLÉN piece is made to last, to age, to be worn for years. We include care guides and repair instructions because we want your pieces to have a future.
+                We collaborate with emerging artists and photographers on limited-edition designs. Small batches. Hand cutting. Individual dyeing. The visible imperfections aren&apos;t defects — they&apos;re evidence of careful, intentional craft. Every KALLÉN piece is made to last, to age, to be worn for years. We include care guides and repair instructions because we want your pieces to have a future.
               </p>
             </Reveal>
           </div>
@@ -165,7 +165,7 @@ export default function AboutPage() {
           </Reveal>
           <Reveal delay={80}>
             <p className="font-body text-sm font-light leading-relaxed text-bone/60 mb-16 max-w-2xl">
-              We don't claim to be "fully sustainable" — fashion has an impact. But we measure it, we minimize it, and we're transparent about where we stand.
+              We don&apos;t claim to be &quot;fully sustainable&quot; — fashion has an impact. But we measure it, we minimize it, and we&apos;re transparent about where we stand.
             </p>
           </Reveal>
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-3">

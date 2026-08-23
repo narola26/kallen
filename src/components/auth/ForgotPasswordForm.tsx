@@ -39,10 +39,10 @@ export default function ForgotPasswordForm() {
           <div>
             <p className="font-display text-sm uppercase text-bone mb-2">Check Your Email</p>
             <p className="font-body text-sm font-light text-bone/70 leading-relaxed">
-              We've sent password reset instructions to <strong>{formData.email}</strong>. The link will expire in 24 hours.
+              We&apos;ve sent password reset instructions to <strong>{formData.email}</strong>. The link will expire in 24 hours.
             </p>
             <p className="font-body text-xs text-bone/60 mt-4">
-              Didn't receive the email? Check your spam folder or{" "}
+              Didn&apos;t receive the email? Check your spam folder or{" "}
               <Link href="/contact" className="underline hover:text-bone transition-colors">
                 contact support
               </Link>
@@ -81,7 +81,7 @@ export default function ForgotPasswordForm() {
 
       {/* Help Text */}
       <p className="font-body text-[10px] font-light text-bone/50 leading-relaxed">
-        Enter the email address associated with your KALLÉN account, and we'll send you a secure password reset link.
+        Enter the email address associated with your KALLÉN account, and we&apos;ll send you a secure password reset link.
       </p>
 
       {/* Submit Button */}

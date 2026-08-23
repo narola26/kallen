@@ -14,13 +14,13 @@ export default function ContactPage() {
             <p className="font-mono text-xs uppercase tracking-label text-flare">Contact</p>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="mt-4 font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+            <h1 className="mt-4 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               Get in Touch
             </h1>
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-6 max-w-2xl font-body text-base font-light leading-relaxed text-bone/70">
-              Have a question about your order, our brand, or want to collaborate? We're here to help. Fill out the form below and we'll get back to you within 48 hours.
+              Have a question about your order, our brand, or want to collaborate? We&apos;re here to help. Fill out the form below and we&apos;ll get back to you within 48 hours.
             </p>
           </Reveal>
         </div>
@@ -150,7 +150,7 @@ export default function ContactPage() {
               <div>
                 <p className="font-mono text-[10px] uppercase tracking-label text-flare mb-3">Transparent Process</p>
                 <p className="font-body text-sm font-light text-bone/70 leading-relaxed">
-                  Every inquiry is logged and tracked. You'll receive a confirmation email immediately and a response within our promised timeframe.
+                  Every inquiry is logged and tracked. You&apos;ll receive a confirmation email immediately and a response within our promised timeframe.
                 </p>
               </div>
             </Reveal>

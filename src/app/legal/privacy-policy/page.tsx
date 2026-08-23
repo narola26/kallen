@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
         {
           heading: "1. Introduction",
           body: [
-            "KALLÉN GmbH ("we," "us," or "our") operates the KALLÉN website and digital passport platform. We are committed to protecting your privacy and ensuring you have a positive experience on our platforms.",
+            "KALLÉN GmbH (“we,” “us,” or “our”) operates the KALLÉN website and digital passport platform. We are committed to protecting your privacy and ensuring you have a positive experience on our platforms.",
             "This Privacy Policy explains our practices regarding data collection, usage, and protection. It applies to our website (kallenweb.com), mobile applications, and all digital services we provide.",
           ],
         },

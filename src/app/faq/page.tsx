@@ -234,13 +234,13 @@ export default function FAQPage() {
             <p className="font-mono text-xs uppercase tracking-label text-flare">Help Center</p>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="mt-4 font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+            <h1 className="mt-4 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               Frequently Asked Questions
             </h1>
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-6 max-w-2xl font-body text-base font-light leading-relaxed text-bone/70">
-              Find answers to common questions about sizing, shipping, digital passports, returns, and more. Can't find what you're looking for?{" "}
+              Find answers to common questions about sizing, shipping, digital passports, returns, and more. Can&apos;t find what you&apos;re looking for?{" "}
               <Link href="/contact" className="text-bone underline hover:text-flare transition-colors">
                 Contact us
               </Link>
@@ -285,7 +285,7 @@ export default function FAQPage() {
           </Reveal>
           <Reveal delay={80}>
             <p className="font-body text-base font-light leading-relaxed text-bone/70 mb-8 max-w-2xl mx-auto">
-              Our team is here to help. Reach out anytime and we'll get back to you within 48 hours.
+              Our team is here to help. Reach out anytime and we&apos;ll get back to you within 48 hours.
             </p>
           </Reveal>
           <Reveal delay={160}>

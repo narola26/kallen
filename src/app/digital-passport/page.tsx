@@ -28,7 +28,7 @@ export default function DigitalPassportPage() {
             </span>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="mt-6 font-display text-3xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-4xl">
+            <h1 className="mt-6 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               The Digital Passport
             </h1>
           </Reveal>
@@ -49,7 +49,7 @@ export default function DigitalPassportPage() {
                 <p className="font-mono text-xs uppercase tracking-label text-flare">The Technology</p>
               </Reveal>
               <Reveal delay={80}>
-                <h2 className="mt-4 font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+                <h2 className="mt-4 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
                   How It Works
                 </h2>
               </Reveal>
@@ -62,7 +62,7 @@ export default function DigitalPassportPage() {
                       NFC Chip Embedded
                     </p>
                     <p className="font-body text-base font-light leading-relaxed text-bone/70">
-                      Every KALLÉN garment contains a Near Field Communication (NFC) chip woven into the hem. This tiny, durable chip stores and transmits your piece's unique record.
+                      Every KALLÉN garment contains a Near Field Communication (NFC) chip woven into the hem. This tiny, durable chip stores and transmits your piece&apos;s unique record.
                     </p>
                   </div>
                   <div>
@@ -95,7 +95,7 @@ export default function DigitalPassportPage() {
             <p className="font-mono text-xs uppercase tracking-label text-flare">Your Data</p>
           </Reveal>
           <Reveal delay={80}>
-            <h2 className="mt-4 font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl mb-16">
+            <h2 className="mt-4 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl mb-16">
               What Your Passport Contains
             </h2>
           </Reveal>
@@ -191,7 +191,7 @@ export default function DigitalPassportPage() {
                 <p className="font-mono text-xs uppercase tracking-label text-flare">Why This Matters</p>
               </Reveal>
               <Reveal delay={80}>
-                <h2 className="mt-4 font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+                <h2 className="mt-4 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
                   Trust. Transparency. Proof.
                 </h2>
               </Reveal>
@@ -204,7 +204,7 @@ export default function DigitalPassportPage() {
                       🔐 Authenticity Verification
                     </h3>
                     <p className="font-body text-base font-light leading-relaxed text-bone/70">
-                      No fakes. If it doesn't scan, it's not KALLÉN. The NFC chip is woven into the seam — impossible to counterfeit without our technology and partnerships.
+                      No fakes. If it doesn&apos;t scan, it&apos;s not KALLÉN. The NFC chip is woven into the seam — impossible to counterfeit without our technology and partnerships.
                     </p>
                   </div>
                   <div>
@@ -220,7 +220,7 @@ export default function DigitalPassportPage() {
                       ♻️ Resale Confidence
                     </h3>
                     <p className="font-body text-base font-light leading-relaxed text-bone/70">
-                      When you sell your KALLÉN piece, the passport transfers with it. Buyers know it's real. They see the full provenance. You both benefit from verified authenticity.
+                      When you sell your KALLÉN piece, the passport transfers with it. Buyers know it&apos;s real. They see the full provenance. You both benefit from verified authenticity.
                     </p>
                   </div>
                   <div>
@@ -242,7 +242,7 @@ export default function DigitalPassportPage() {
       <section className="border-t border-bone/10 bg-void/50 px-gutter-mobile py-section-mobile sm:px-gutter sm:py-section">
         <div className="mx-auto max-w-content">
           <Reveal>
-            <h2 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone mb-16">
+            <h2 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl mb-16">
               Common Questions
             </h2>
           </Reveal>
@@ -254,7 +254,7 @@ export default function DigitalPassportPage() {
                   Do I need an app?
                 </p>
                 <p className="font-body text-sm font-light text-bone/70">
-                  No. Simply hold your phone near the NFC chip on your KALLÉN piece. Your phone's default NFC reader will open the passport portal in your browser.
+                  No. Simply hold your phone near the NFC chip on your KALLÉN piece. Your phone&apos;s default NFC reader will open the passport portal in your browser.
                 </p>
               </div>
             </Reveal>
@@ -265,7 +265,7 @@ export default function DigitalPassportPage() {
                   Will the chip wear out?
                 </p>
                 <p className="font-body text-sm font-light text-bone/70">
-                  No. NFC chips are extremely durable and are designed to last decades. They're woven into the seam and protected from water and wear.
+                  No. NFC chips are extremely durable and are designed to last decades. They&apos;re woven into the seam and protected from water and wear.
                 </p>
               </div>
             </Reveal>
@@ -276,7 +276,7 @@ export default function DigitalPassportPage() {
                   What if I lose my receipt?
                 </p>
                 <p className="font-body text-sm font-light text-bone/70">
-                  Your passport IS your proof. Scan the chip and you'll have all the proof you need: purchase date, materials, maker info, and ownership record.
+                  Your passport IS your proof. Scan the chip and you&apos;ll have all the proof you need: purchase date, materials, maker info, and ownership record.
                 </p>
               </div>
             </Reveal>
@@ -298,7 +298,7 @@ export default function DigitalPassportPage() {
                   Is my data secure?
                 </p>
                 <p className="font-body text-sm font-light text-bone/70">
-                  Yes. The NFC chip only contains your item's production data, not personal information. Your account data is encrypted and secure (see our <a href="/legal/privacy-policy" className="underline hover:text-bone">privacy policy</a>).
+                  Yes. The NFC chip only contains your item&apos;s production data, not personal information. Your account data is encrypted and secure (see our <a href="/legal/privacy-policy" className="underline hover:text-bone">privacy policy</a>).
                 </p>
               </div>
             </Reveal>
@@ -321,7 +321,7 @@ export default function DigitalPassportPage() {
       <section className="border-t border-bone/10 px-gutter-mobile py-section-mobile sm:px-gutter sm:py-section">
         <div className="mx-auto max-w-content text-center">
           <Reveal>
-            <h2 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone mb-6">
+            <h2 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl mb-6">
               Own the Proof
             </h2>
           </Reveal>

@@ -26,7 +26,7 @@ export default function ClubPage() {
             </Link>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+            <h1 className="font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
               Club Membership
             </h1>
           </Reveal>
@@ -49,7 +49,7 @@ export default function ClubPage() {
                 </p>
                 <p className="font-display text-xl uppercase text-flare mb-4">Active Member</p>
                 <p className="font-body text-sm font-light text-bone/70">
-                  You're part of our inner circle. Enjoy every benefit.
+                  You&apos;re part of our inner circle. Enjoy every benefit.
                 </p>
               </div>
               <div>

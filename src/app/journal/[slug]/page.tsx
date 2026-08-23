@@ -46,7 +46,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           <p className="font-mono text-xs uppercase tracking-label text-flare">
             {article.category}
           </p>
-          <h1 className="mt-4 font-display text-2xl uppercase leading-snug tracking-[0.06em] text-bone sm:text-3xl">
+          <h1 className="mt-4 font-display text-lg uppercase leading-snug tracking-[0.06em] text-bone sm:text-xl">
             {article.title}
           </h1>
         </Reveal>
@@ -116,7 +116,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
                   More from {article.category}
                 </h3>
                 <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-                  {relatedArticles.map((a, i) => (
+                  {relatedArticles.map((a) => (
                     <Link key={a.slug} href={`/journal/${a.slug}`} className="group">
                       <div className="relative aspect-square overflow-hidden bg-ink mb-4">
                         <Image

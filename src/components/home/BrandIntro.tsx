@@ -17,7 +17,7 @@ export default function BrandIntro() {
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-8 max-w-xl font-body text-base font-light leading-relaxed text-bone/70">
-              KALLÉN puts original artwork on considered garments. Every piece carries a digital passport — the cotton's origin, the factory, the person who sewed it. Not a marketing story. The actual record.
+              KALLÉN puts original artwork on considered garments. Every piece carries a digital passport — the cotton&apos;s origin, the factory, the person who sewed it. Not a marketing story. The actual record.
             </p>
           </Reveal>
 
@@ -42,7 +42,7 @@ export default function BrandIntro() {
                 <p className="font-mono text-[10px] uppercase tracking-label text-flare/80">03</p>
                 <p className="mt-2 font-display text-sm uppercase leading-tight text-bone">Community First</p>
                 <p className="mt-2 font-body text-xs leading-relaxed text-bone/60">
-                  You're part of a movement. Creators, collectors, and culture-makers building together.
+                  You&apos;re part of a movement. Creators, collectors, and culture-makers building together.
                 </p>
               </div>
             </div>
