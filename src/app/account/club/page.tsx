@@ -32,7 +32,7 @@ export default function ClubPage() {
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-4 max-w-2xl font-body text-base font-light leading-relaxed text-bone/70">
-              Your current status and exclusive benefits as a KALLÉN Club member.
+              Your status and benefits as a KALLÉN Club member. Free, for as long as you want it.
             </p>
           </Reveal>
         </div>
@@ -58,7 +58,7 @@ export default function ClubPage() {
                 </p>
                 <p className="font-display text-xl uppercase text-bone mb-4">August 2024</p>
                 <p className="font-body text-sm font-light text-bone/70">
-                  1 year subscription active • Renews August 2025
+                  Free membership • No renewal, no expiry
                 </p>
               </div>
             </div>
@@ -127,13 +127,14 @@ export default function ClubPage() {
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
               <div>
                 <p className="font-display text-sm uppercase text-bone mb-3">
-                  Manage Subscription
+                  Email Preferences
                 </p>
                 <p className="font-body text-sm font-light text-bone/70 mb-4">
-                  Pause, resume, or cancel your membership anytime. No penalties.
+                  Choose what you hear about, or leave the club entirely. One click, no questions
+                  asked — and nothing to cancel, since membership is free.
                 </p>
                 <button className="font-body text-xs text-bone underline hover:text-flare transition-colors">
-                  Manage Subscription →
+                  Edit Preferences →
                 </button>
               </div>
               <div>

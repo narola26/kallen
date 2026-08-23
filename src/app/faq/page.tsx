@@ -152,7 +152,7 @@ const FAQ_SECTIONS = [
     questions: [
       {
         q: "Do I need an account to order?",
-        a: "No, you can check out as a guest. But creating an account lets you track orders, save items, manage digital passports, and access exclusive club benefits.",
+        a: "No, you can check out as a guest. But creating an account lets you track orders, save items, manage digital passports, and see your club status in one place.",
       },
       {
         q: "How is my data protected?",
@@ -168,7 +168,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "What's the KALLÉN Club?",
-        a: "A membership for our most loyal customers. You get 24-hour early access to every drop, private studio events, unreleased previews, and direct contact with our team.",
+        a: "Our free membership. You get 24-hour early access to every drop, restock alerts, private studio events, unreleased previews, updates from across the brand, and direct contact with our team. There's no fee to join and no paid tier — an email address is all it takes.",
       },
     ],
   },

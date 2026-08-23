@@ -75,7 +75,7 @@ export default function AccountPage() {
                   Member Since
                 </p>
                 <p className="font-display text-lg uppercase text-bone">August 2024</p>
-                <p className="font-body text-xs text-bone/60 mt-2">Premium Member</p>
+                <p className="font-body text-xs text-bone/60 mt-2">Club member</p>
               </div>
             </Reveal>
             <Reveal delay={80}>

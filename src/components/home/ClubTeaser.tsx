@@ -3,8 +3,8 @@ import Reveal from "@/components/motion/Reveal";
 
 const PERKS = [
   "24h early access to every drop",
+  "Restocks, previews and studio updates",
   "Invitations to private events",
-  "Previews of unreleased collections",
 ];
 
 export default function ClubTeaser() {
@@ -12,7 +12,7 @@ export default function ClubTeaser() {
     <section className="bg-bone px-gutter-mobile py-section-mobile sm:px-gutter sm:py-section">
       <div className="mx-auto flex max-w-content flex-col items-center text-center">
         <Reveal>
-          <p className="font-mono text-xs uppercase tracking-label text-ash">Membership</p>
+          <p className="font-mono text-xs uppercase tracking-label text-ash">Free membership</p>
           <h2 className="mt-4 font-display text-lg uppercase leading-none tracking-wordmark text-void sm:text-xl">
             Kallén Club
           </h2>
