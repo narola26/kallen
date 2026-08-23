@@ -356,6 +356,51 @@ export const ARTICLES: Article[] = [
       "The brief was simple: wear the clothes the way you would wear them. The images are grainy, underexposed in places, and honest.",
     ],
   },
+  {
+    slug: "cotton-sustainability",
+    category: "Sustainability",
+    title: "Why organic cotton matters",
+    excerpt: "The environmental impact of conventional cotton — and why we chose differently.",
+    image: img("cotton-sustainability", 1600, 1000),
+    date: "8 April 2026",
+    readTime: "7 min",
+    body: [
+      "Conventional cotton uses 16% of the world's pesticides while occupying only 2.5% of arable land. It's one of the most chemically intensive crops we grow.",
+      "Organic cotton avoids synthetic pesticides and fertilizers. It uses 91% less water than conventional cotton and regenerates soil rather than depleting it.",
+      "Every KALLÉN piece begins with Fair Trade certified organic cotton from West Africa. Our suppliers support smallholder farmers with stable prices and direct relationships.",
+      "When you buy a KALLÉN piece, your digital passport shows exactly where your cotton grew — down to the region and farm certification.",
+    ],
+  },
+  {
+    slug: "maker-spotlight",
+    category: "People",
+    title: "Meet the seamstress: A day in the atelier",
+    excerpt: "Portuguese craftsmanship: how we celebrate the people who stitch KALLÉN.",
+    image: img("maker-spotlight", 1600, 1000),
+    date: "14 April 2026",
+    readTime: "5 min",
+    body: [
+      "Every KALLÉN piece is sewn by one person from start to finish. No assembly line, no handoff. One machinist, one garment, one signature.",
+      "Our Porto atelier employs 15 seamstresses, each with 10+ years of experience. They are not named 'staff' — they are named on the digital passport of every piece they make.",
+      "A single machinist produces 8-10 pieces per day. She checks each stitch, presses each seam, and signs the interior label before it moves to dyeing.",
+      "Fair wages, healthcare benefits, and education opportunities are non-negotiable. We believe the people who make our clothes deserve to thrive.",
+    ],
+  },
+  {
+    slug: "longevity-design",
+    category: "Design",
+    title: "Designing for decades, not seasons",
+    excerpt: "How intentional design extends the life of a garment.",
+    image: img("longevity-design", 1600, 1000),
+    date: "20 April 2026",
+    readTime: "6 min",
+    body: [
+      "Fast fashion is predicated on the idea that clothes expire. KALLÉN is designed on the opposite principle: that good clothes get better with time.",
+      "We choose materials that age beautifully. Organic cotton strengthens with washing. Natural dyes develop character. Seams reinforce with wear.",
+      "Every design decision serves longevity: reinforced stress points, generous seams that can be let out, classic shapes that transcend trends.",
+      "Your KALLÉN piece is meant to be worn, loved, repaired when needed, and eventually passed on. That is the opposite of disposable fashion.",
+    ],
+  },
 ];
 
 export function getProduct(slug: string) {
