@@ -55,7 +55,7 @@ export default function SavedPage() {
             <div className="space-y-6">
               {SAVED_ITEMS.map((item, i) => (
                 <Reveal key={item.id} delay={i * 80}>
-                  <div className="border border-bone/10 p-6 hover:border-bone/20 hover:bg-void/20 transition-all duration-300">
+                  <div className="border border-bone/10 p-6 hover:border-bone/30 hover:bg-void/20 transition-all duration-300">
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-12 sm:items-center">
                       <div className="sm:col-span-4">
                         <p className="font-display text-sm uppercase text-bone mb-2">{item.name}</p>

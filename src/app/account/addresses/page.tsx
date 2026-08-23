@@ -60,7 +60,7 @@ export default function AddressesPage() {
           <div className="space-y-6 mb-12">
             {SAMPLE_ADDRESSES.map((address, i) => (
               <Reveal key={address.id} delay={i * 80}>
-                <div className="border border-bone/10 p-6 hover:border-bone/20 hover:bg-void/20 transition-all duration-300">
+                <div className="border border-bone/10 p-6 hover:border-bone/30 hover:bg-void/20 transition-all duration-300">
                   <div className="flex items-start justify-between mb-4">
                     <div>
                       <div className="flex items-center gap-3 mb-2">

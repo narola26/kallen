@@ -19,7 +19,7 @@ export default function FAQAccordion({ question, answer, delay = 0 }: FAQAccordi
         className="w-full text-left border-b border-bone/10 py-6 hover:border-bone/30 transition-colors duration-200 group"
       >
         <div className="flex items-center justify-between">
-          <h3 className="font-display text-sm uppercase leading-tight tracking-[0.04em] text-bone group-hover:text-flare transition-colors flex-1">
+          <h3 className="font-display text-sm uppercase leading-tight tracking-[0.06em] text-bone group-hover:text-flare transition-colors flex-1">
             {question}
           </h3>
           <span

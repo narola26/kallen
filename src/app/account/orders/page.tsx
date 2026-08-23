@@ -76,7 +76,7 @@ export default function OrdersPage() {
             <div className="space-y-6">
               {SAMPLE_ORDERS.map((order, i) => (
                 <Reveal key={order.id} delay={i * 80}>
-                  <div className="border border-bone/10 p-6 hover:border-bone/20 hover:bg-void/20 transition-all duration-300">
+                  <div className="border border-bone/10 p-6 hover:border-bone/30 hover:bg-void/20 transition-all duration-300">
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-12 sm:items-center">
                       {/* Order Info */}
                       <div className="sm:col-span-4">

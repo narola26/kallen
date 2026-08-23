@@ -108,7 +108,7 @@ export default function AccountPage() {
               <Reveal key={section.href} delay={i * 60}>
                 <Link
                   href={section.href}
-                  className="group block border border-bone/10 p-6 hover:border-bone/30 hover:bg-void/30 transition-all duration-300"
+                  className="group block border border-bone/10 p-6 hover:border-bone/30 hover:bg-void/20 transition-all duration-300"
                 >
                   <div className="flex items-start gap-4">
                     <span className="text-2xl">{section.icon}</span>
