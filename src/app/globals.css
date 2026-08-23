@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* space-separated RGB channels, so Tailwind's /opacity modifiers
+     (text-bone/70, bg-void/45, ...) can actually apply — a bare hex
+     custom property can't be decomposed for opacity at build time. */
+  --void: 10 10 10;
+  --bone: 244 241 236;
+  --ash: 138 135 129;
+  --ink: 20 20 20;
+  --flare: 198 70 46;
+
+  --ease-entrance: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+* {
+  border-color: rgb(var(--ash) / 0.2);
+}
+
+html {
+  background: rgb(var(--void));
+}
+
+body {
+  background: rgb(var(--void));
+  color: rgb(var(--bone));
+}
+
+::selection {
+  background: rgb(var(--bone));
+  color: rgb(var(--void));
+}
+
+/* Every photograph gets the same film treatment so mixed sources read as one campaign */
+.kallen-img {
+  filter: grayscale(15%) contrast(1.08) brightness(0.92);
+  display: block;
+}
+
+.link-underline {
+  position: relative;
+  display: inline-block;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 400ms var(--ease-entrance);
+}
+.link-underline:hover::after {
+  transform: scaleX(1);
+}
+
+@keyframes marqueeScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marqueeScroll 34s linear infinite;
+}
+
+@keyframes scrollLine {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  45% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  55% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
+.scroll-line {
+  animation: scrollLine 2.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(var(--void));
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
