@@ -9,7 +9,7 @@ const COLUMNS = [
     links: [
       { label: "Shop all", href: "/shop" },
       { label: "Collections", href: "/collections" },
-      { label: "Creators", href: "/creators" },
+      { label: "Creator Market", href: "/creators" },
       { label: "Club", href: "/club" },
     ],
   },
@@ -18,6 +18,7 @@ const COLUMNS = [
     links: [
       { label: "About", href: "/about" },
       { label: "Journal", href: "/journal" },
+      { label: "Open a store", href: "/creators/apply" },
       { label: "Contact", href: "/contact" },
     ],
   },

@@ -57,6 +57,11 @@ export default function CartDrawer() {
                       </div>
                       <div className="flex flex-1 flex-col justify-between">
                         <div>
+                          {line.product.collection.includes("×") && (
+                            <p className="mb-1 font-mono text-[10px] uppercase tracking-label text-flare">
+                              {line.product.collection}
+                            </p>
+                          )}
                           <p className="font-body text-sm font-light text-bone">{line.product.name}</p>
                           <p className="mt-1 font-mono text-[10px] uppercase tracking-label text-ash">
                             Size {line.size} · Qty {line.qty}
