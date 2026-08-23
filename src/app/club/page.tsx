@@ -188,7 +188,7 @@ export default function ClubPage() {
           </Reveal>
           <div className="space-y-0">
             {FAQ.map((item, i) => (
-              <Reveal key={i} delay={i * 40}>
+              <Reveal key={i} delay={i * 80}>
                 <div className="border-b border-bone/10 py-6 hover:border-bone/30 transition-colors">
                   <details className="group cursor-pointer">
                     <summary className="flex items-center justify-between">

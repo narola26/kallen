@@ -8,7 +8,7 @@ export default function TrackOrderPage() {
   return (
     <div className="mx-auto max-w-lg px-gutter-mobile pb-section-mobile pt-24 sm:px-gutter sm:pb-section sm:pt-32">
       <Reveal>
-        <p className="font-mono text-xs uppercase tracking-label text-ash">Help</p>
+        <p className="font-mono text-xs uppercase tracking-label text-flare">Help</p>
         <h1 className="mt-4 font-display text-md uppercase leading-tight tracking-wordmark text-bone sm:text-lg">
           Track your order
         </h1>

@@ -16,7 +16,7 @@ export default function ArticleCard({ article, delay = 0 }: { article: Article; 
             className="kallen-img object-cover transition-transform duration-section ease-entrance group-hover:scale-[1.04]"
           />
         </div>
-        <p className="mt-6 font-mono text-[10px] uppercase tracking-label text-ash">{article.category}</p>
+        <p className="mt-6 font-mono text-[10px] uppercase tracking-label text-flare">{article.category}</p>
         <h3 className="link-underline mt-3 inline-block font-display text-md uppercase text-bone">
           {article.title}
         </h3>

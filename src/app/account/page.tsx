@@ -105,7 +105,7 @@ export default function AccountPage() {
         <div className="mx-auto max-w-content">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             {ACCOUNT_SECTIONS.map((section, i) => (
-              <Reveal key={section.href} delay={i * 60}>
+              <Reveal key={section.href} delay={i * 80}>
                 <Link
                   href={section.href}
                   className="group block border border-bone/10 p-6 hover:border-bone/30 hover:bg-void/20 transition-all duration-300"

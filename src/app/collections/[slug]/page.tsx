@@ -38,7 +38,7 @@ export default function CollectionPage({ params }: { params: { slug: string } })
       {products.length > 0 && (
         <div className="mx-auto max-w-content px-gutter-mobile pb-24 sm:px-gutter sm:pb-32">
           <Reveal>
-            <p className="mb-12 font-mono text-xs uppercase tracking-label text-ash sm:mb-16">
+            <p className="mb-12 font-mono text-xs uppercase tracking-label text-flare sm:mb-16">
               The pieces
             </p>
           </Reveal>
